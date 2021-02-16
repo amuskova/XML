@@ -1,0 +1,52 @@
+<!ELEMENT catalogue (regions, sectors, companies)>
+
+<!ELEMENT regions (region+)>
+<!ELEMENT region (regionName)>
+<!ATTLIST region regionID ID #REQUIRED>
+<!ATTLIST region companyRef IDREFS #IMPLIED>
+<!ELEMENT regionName (#PCDATA)>
+
+<!ELEMENT sectors (sector+)>
+<!ELEMENT sector (sectorName)>
+<!ATTLIST sector sectorID ID #REQUIRED>
+<!ATTLIST sector companyRef IDREFS #IMPLIED>
+<!ELEMENT sectorName (#PCDATA)>
+
+<!ELEMENT companies (company+)>
+<!ELEMENT company (companyName, location, contacts, UID, description?,image?)>
+<!ATTLIST company companyID ID #REQUIRED>
+<!ATTLIST company regionRef IDREF #IMPLIED>
+<!ATTLIST company sectorRef IDREF #IMPLIED>
+<!ELEMENT companyName (#PCDATA)>
+<!ELEMENT UID (#PCDATA)>
+
+<!ELEMENT location (city, address?)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+
+<!ELEMENT contacts (phone, email?, site?, facebook?)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT site (#PCDATA)>
+<!ELEMENT facebook (#PCDATA)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image href ENTITY #REQUIRED>
+<!NOTATION jpg PUBLIC "jpg viewer">
+
+<!ENTITY vmware SYSTEM "images/vmware.jpg" NDATA jpg>
+<!ENTITY ubisoft SYSTEM "images/ubisoft.jpg" NDATA jpg>
+<!ENTITY uran SYSTEM "images/uran.jpg" NDATA jpg>
+<!ENTITY itmastersoft SYSTEM "images/itmastersoft.jpg" NDATA jpg>
+<!ENTITY gameloft SYSTEM "images/gameloft.jpg" NDATA jpg>
+<!ENTITY wollow SYSTEM "images/wollow.jpg" NDATA jpg>
+<!ENTITY flatrock SYSTEM "images/flatrock.jpg" NDATA jpg>
+<!ENTITY codeplusltd SYSTEM "images/codeplusltd.jpg" NDATA jpg>
+<!ENTITY miraclemill SYSTEM "images/miraclemill.jpg" NDATA jpg>
+<!ENTITY devwave SYSTEM "images/devwave.jpg" NDATA jpg>
+<!ENTITY areus SYSTEM "images/areus.jpg" NDATA jpg>
+<!ENTITY newlinetechnologies SYSTEM "images/newlinetechnologies.jpg" NDATA jpg>
+<!ENTITY scalefocus SYSTEM "images/scalefocus.jpg" NDATA jpg>
+	

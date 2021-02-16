@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XML2021_project_9_62258_62308.xsl"?>
+
+<!DOCTYPE catalogue SYSTEM "XML2021_project_9_62258_62308.dtd">
+
+<catalogue>
+
+	<regions>
+		<region regionID = "RUSSE" companyRef = "Areus">
+			<regionName> Русе </regionName>
+		</region>
+		<region regionID = "VARNA" companyRef = "DevWave FlatRock Wollow">
+			<regionName> Варна </regionName>
+		</region>
+		<region regionID = "SOFIA" companyRef = "VMware Ubisoft Gameloft">
+			<regionName> София </regionName>
+		</region>
+		<region regionID = "PLOVDIV" companyRef = "UranCompany NewLineTechnologies ScaleFocus">
+			<regionName> Пловдив </regionName>
+		</region>
+		<region regionID = "BURGAS" companyRef = "ITMasterSoft">
+			<regionName> Бургас </regionName>
+		</region>
+		<region regionID = "BLAGOEVGRAD" companyRef = "MiracleMill CodePlusLTd">
+			<regionName> Благоевград </regionName>
+		</region>
+	</regions>
+
+	<sectors>
+		<sector sectorID = "web" companyRef = "CodePlusLTd Wollow UranCompany">
+			<sectorName> Уеб </sectorName>
+		</sector>
+		<sector sectorID = "mobile" companyRef = "NewLineTechnologies FlatRock Areus ITMasterSoft">
+			<sectorName> Мобилни </sectorName>
+		</sector>
+		<sector sectorID = "games" companyRef = "Ubisoft Gameloft">
+			<sectorName> Игри </sectorName>
+		</sector>
+		<sector sectorID = "software" companyRef = "MiracleMill DevWave ScaleFocus VMware">
+			<sectorName> Софтуер </sectorName>
+		</sector>
+	</sectors>
+
+	<companies>
+<!--=========================VMWare===================================-->
+		<company companyID = "VMware" regionRef="SOFIA" sectorRef="software">
+			<companyName> VMware </companyName>
+			<location>
+				<city> София </city>
+				<address> 16A, „Г.М. Димитров“, булевард 1797 </address>
+			</location>
+			<contacts>
+				<phone> 02 804 1344 </phone>
+				<email> info@vmware.com </email>
+				<site> https://www.vmware.com/ </site>
+				<facebook> https://www.facebook.com/vmwarebg </facebook>
+			</contacts>
+			<UID> 200341975 </UID>
+			<description>
+				Глобален лидер в облачната инфраструктура и бизнес-мобилността.
+				Софтуерът на фирмата обхваща модернизация на приложения, облак, мрежи и сигурност и цифрово работно пространство.
+			</description>
+			<image href="vmware"/>
+		</company>
+<!--=========================Ubisoft===================================-->
+		<company companyID = "Ubisoft" regionRef="SOFIA" sectorRef="games">
+			<companyName> Ubisoft </companyName>
+			<location>
+				<city> София </city>
+				<address> Office Center Polygraphia, етаж 5, бул. „Цариградско шосе“ 47, 1124 </address>
+			</location>
+			<contacts>
+				<phone> 02 489 4606 </phone>
+				<email> pr_bg@ubisoft.com </email>
+				<site> https://www.ubisoft.com/en-us/studio/sofia.aspx </site>
+				<facebook> https://www.facebook.com/ubisoft/ </facebook>
+			</contacts>
+			<UID> 175173451 </UID>
+			<description>
+				Проектиране, изработка, редактиране, включващо и актуализаия, и разпространение на видео-игри и на всякакви други продукти, свързани с видео-игри,
+				които са предназначени за компютри, видео-конзоли от следващо и ново поколение, портативни системи или конзоли, игрални устройства, използвани в сферата
+				на телекомуникацията, дигитална телевизия, както и всяка друга, незабранена и съобразена с особените изисквания на законодателството дейност в страната и в чужбина.
+			</description>
+			<image href="ubisoft"/>
+		</company>
+<!--=========================Uran Company===================================-->
+		<company companyID = "UranCompany" regionRef="PLOVDIV" sectorRef="web">
+			<companyName> Uran Company </companyName>
+			<location>
+				<city> Пловдив </city>
+				<address> ул. „Хан Аспарух 21“ </address>
+			</location>
+			<contacts>
+				<phone> 0877267117 </phone>
+				<email> info@urancompany.com </email>
+				<site> http://urancompany.com </site>
+				<facebook> https://bg-bg.facebook.com/urancompany </facebook>
+			</contacts>
+			<UID> 203280890 </UID>
+			<description>
+				Uran Company е компания за уеб разработка с цел да достави уеб и софтуерни решения за бизнеса, стремящ се да подобри онлайн присъствието
+				и да оптимизира бизнес процесите с цифрова трансформация. Имат голям опит в Shopify Headless Commerce, WebRTC решения за стрийминг,
+				ботове и интелигентни асистенти, прогресивни уеб усилватели и повече.
+			</description>
+			<image href="uran"/>
+		</company>
+<!--=========================IT Master Soft===================================-->
+		<company companyID = "ITMasterSoft" regionRef="BURGAS" sectorRef="mobile">
+			<companyName>IT Master Soft</companyName>
+			<location>
+				<city> Бургас </city>
+				<address> ул. „Васил Априлов“ 16, етаж 3, офис 1 </address>
+			</location>
+			<contacts>
+				<phone> 0893452688 </phone>
+				<email> info@itmaster-soft.com </email>
+				<site> https://itmaster-soft.com/ </site>
+				<facebook> https://www.facebook.com/itmastersoft/ </facebook>
+			</contacts>
+			<UID> 204271759 </UID>
+			<description>
+				Ние не разработваме софтуер, за да разработим само софтуер. Ние инвестираме нашите знания и опит, за да осигурим безпроблемна работа на проекта.
+			</description>
+			<image href="itmastersoft"/>
+		</company>
+<!--=========================Gameloft===================================-->
+		<company companyID = "Gameloft" regionRef="SOFIA" sectorRef="games">
+			<companyName> Gameloft </companyName>
+			<location>
+				<city> София </city>
+				<address> бул. „княгиня Мария Луиза“ 2, 1202 Център </address>
+			</location>
+			<contacts>
+				<phone> 02 489 0056 </phone>
+				<email> support@gameloft.com </email>
+				<site> https://www.gameloft.com/bg/ </site>
+				<facebook> https://www.facebook.com/gameloft/ </facebook>
+			</contacts>
+			<UID> 131343076 </UID>
+			<description>
+				Проектиране, изработка, редактиране, включващо и актуализация и разпространение на видео-игри и на всякакви други продукти, свързани с видео-игри,
+				които са предназначени за мобилни телефонни апарати, за други съоръжения, използвани в областта на мобилните комуникации, и за дигиталната телевизия,
+				както и всякак друга, незабранена и съобразена с особените изисквания на законодателството дейност в страната и чужбина.
+			</description>
+			<image href="gameloft"/>
+		</company>
+<!--=========================Wollow===================================-->
+		<company companyID = "Wollow" regionRef="VARNA" sectorRef="web">
+			<companyName> Wollow </companyName>
+			<location>
+				<city> Варна </city>
+				<address> ул. „Генерал Колев“ 54, етаж 5, офис 19, 9000 Варна Център </address>
+			</location>
+			<contacts>
+				<phone> 08893 621 112 </phone>
+				<email> office@wollow-soft.com </email>
+				<site> https://wollow-soft.com/bg-BG </site>
+				<facebook> https://www.facebook.com/wollow.cowork/ </facebook>
+			</contacts>
+			<UID> 201214735 </UID>
+			<description>
+				Wollow е софтуерна компания базирана във Варна и профилирана в разработването на специализиран софтуер, уеб и мобилни приложения, интеграция и поддръжка на
+				софтуерни проекти. Имат голям опит в изграждането и подръжката на успешни уебсайтове, софтуерни решения и апликации, както за големи частни компании в България,
+				така също за клиенти в Северна Америка, Европа и Австралия.
+			</description>
+			<image href="wollow"/>
+		</company>
+<!--=========================Flat Rock Technologies===================================-->
+		<company companyID = "FlatRock" regionRef="VARNA" sectorRef="mobile">
+			<companyName> Flat Rock Technologies </companyName>
+			<location>
+				<city> Варна </city>
+				<address> ул. „Генерал Колев“ 113, 9002 Варна Център </address>
+			</location>
+			<contacts>
+				<phone> 0852636317 </phone>
+				<email> info@flatrock.com </email>
+				<site> https://www.flatrocktech.com/ </site>
+				<facebook> https://www.facebook.com/FlatRockTechBulgaria/ </facebook>
+			</contacts>
+			<UID> 201052233 </UID>
+			<description>
+				От 2008 г. Flat Rock Technology предоставя широка гама от иновативни и сложни решения за компании от всякакъв мащаб и израства в надежден партньор
+				за разработка на всякакъв вид мобилни и уеб приложения. 
+			</description>
+			<image href="flatrock"/>
+		</company>
+<!--=========================Code Plus LTd===================================-->
+		<company companyID = "CodePlusLTd" regionRef="BLAGOEVGRAD" sectorRef="web">
+			<companyName> Code Plus LTd </companyName>
+			<location>
+				<city> Благоевград </city>
+				<address> ул. „Рилски Езера“ 11 </address>
+			</location>
+			<contacts>
+				<phone> 0884 796 193 </phone>
+				<email> info@codeplusmarketing.com </email>
+				<site> https://codeplusmarketing.com/ </site>
+				<facebook> https://www.facebook.com/code.plus12/ </facebook>
+			</contacts>
+			<UID> 204977547 </UID>
+			<description>
+				Предлагаме пълен набор от решения за цифрова трансформация. Услугите ни за разработка са съсредоточени около създаването на различни уеб и мобилни решения,
+				разработка на софтуер по поръчка, както и услуги за дигитален маркетинг.
+			</description>
+			<image href="codeplusltd"/>
+		</company>
+<!--=========================Miracle Mill AG===================================-->
+		<company companyID = "MiracleMill" regionRef="BLAGOEVGRAD" sectorRef="software">
+			<companyName> Miracle Mill AG </companyName>
+			<location>
+				<city> Благоевград </city>
+				<address> ул. „Васил Мечкуевски“, 22, офис 1 </address>
+			</location>
+			<contacts>
+				<phone> 0897562596 </phone>
+				<email> info@miraclemill.com </email>
+				<site> https://miraclemill.com/ </site>
+				<facebook> https://www.facebook.com/miraclemillbg/ </facebook>
+			</contacts>
+			<UID> 202110084 </UID>
+			<description>
+				Нашата мисия е да създадем завладяващи мащабируеми облачни решения, които да радват нашите клиенти и да предоставят персонализирани решения за установяване на
+				целите на вашата компания. Ние се фокусираме върху поддържането на прозрачен и итеративен подход към развитието и формирането на дългосрочно сътрудничество.
+				Вълнуваме се от промяната и работим за създаването на красив софтуер.
+			</description>
+			<image href="miraclemill"/>
+		</company>
+<!--=========================Dev Wave===================================-->
+		<company companyID = "DevWave" regionRef="VARNA" sectorRef="software">
+			<companyName> DevWave </companyName>
+			<location>
+				<city> Варна </city>
+				<address> ул. „Ивац Войвода“ 1, 9000 ж.к. Трошево </address>
+			</location>
+			<contacts>
+				<phone> 088 822 9975 </phone>
+				<email> info@devwave.net </email>
+				<site> https://devwave.net/ </site>
+				<facebook> https://www.facebook.com/devwavesoft/ </facebook>
+			</contacts>
+			<UID> 203085762 </UID>
+			<description>
+				DevWave предоставя пълна гама от софтуерни услуги за предоставяне на ефективни и надеждни софтуерни решения, които отговарят на вашите специфични нужди.
+				Разработваме софтуер и мобилни приложения за вашия бизнес - онлайн магазини, портали, системи за автоматизация, системи за управление на бизнеса и др.
+			</description>
+			<image href="devwave"/>
+		</company>
+<!--=========================Areus===================================-->
+		<company companyID = "Areus" regionRef="RUSSE" sectorRef="mobile">
+			<companyName>Areus</companyName>
+			<location>
+				<city> Русе </city>
+				<address> ул. „Стефан Караджа“ 10, офис 4, 7002 </address>
+			</location>
+			<contacts>
+				<phone> +1 857 990 9001 </phone>
+				<email> office@areusdev.com </email>
+				<site> https://www.areusdev.com/ </site>
+				<facebook> https://www.facebook.com/areusdevelopment/#_=_ </facebook>
+			</contacts>
+			<UID> 201261261 </UID>
+			<description>
+				Areus е офшорна фирма за разработване на софтуер. Areus разработи уникално мобилно приложение с възможност за местоположение за румънска консултантска фирма.
+				Крайният клиент на фирмата е природозащитна организация, която се фокусира върху защитата на природните ресурси и дивата природа на Румъния, а приложението
+				дава възможност на потребителите да проследяват екологичната дейност в цялата страна. Areus успешно предостави проекта за удовлетворение на крайния клиент и
+				консултантската компания го счете за особено гладко партньорство.
+			</description>
+			<image href="areus"/>
+		</company>
+<!--=========================New Line Technologies===================================-->
+		<company companyID = "NewLineTechnologies" regionRef="PLOVDIV" sectorRef="mobile">
+			<companyName> New Line Technologies </companyName>
+			<location>
+				<city> Пловдив </city>
+				<address> р-н Централен, КНЯЗ БОГОРИДИ, 5, ет. 2 </address>
+			</location>
+			<contacts>
+				<phone> 08988 808 9082 </phone>
+				<email> sales@newline.tech </email>
+				<site> https://newline.tech/ </site>
+				<facebook> https://www.facebook.com/newlinetech/ </facebook>
+			</contacts>
+			<UID> 204697292 </UID>
+			<description>
+				Ние предлагаме усъвършенствани ИТ решения за реализиране на всяка ваша идея в печеливши мобилни проекти. New Line Technologies не е свързана с майсторска
+				работилница - ние сме напълно потопени във всеки проект, както в нашия собствен, работим с най-модерни технологии и насърчаваме подобряването на твърдите умения на
+				служителите, което им позволява да бъдат уверени в бъдещето.
+			</description>
+			<image href="newlinetechnologies"/>
+		</company>
+<!--=========================Scale Focus===================================-->
+		<company companyID = "ScaleFocus" regionRef="PLOVDIV" sectorRef="software">
+			<companyName> Scale Focus </companyName>
+			<location>
+				<city> Пловдив </city>
+				<address> бул. „Източен“ 59, 4000 Каменица 1 </address>
+			</location>
+			<contacts>
+				<phone> 032 349 190 </phone>
+				<email> info@scalefocus.com </email>
+				<site> https://www.scalefocus.com </site>
+				<facebook> https://www.facebook.com/ScaleFocus/ </facebook>
+			</contacts>
+			<UID> 201996987 </UID>
+			<description>
+				Scale Focus е компания за разработка на софтуер и услуги за цифрова трансформация с мисия да помогне на клиентите да развият бизнеса си, като използват най-новите
+				технологии и най-добрите таланти.
+			</description>
+			<image href="scalefocus"/>
+		</company>
+	</companies>
+</catalogue>
